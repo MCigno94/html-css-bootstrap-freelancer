@@ -23,6 +23,22 @@ hr {
 /* #endregion COMMON */
 
 
+/* UTILITY */
+
+.mc_fs_sm {
+    font-size: 10px;
+}
+
+.px_6 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.bg_mc_primary {
+    background-color: var(--bg-primary);
+}
+
+
 /* #region HEADER */
 
 .mc_navbar {
@@ -30,8 +46,11 @@ hr {
     justify-content: space-around;
 }
 
-.jumbotrone {
-    background-color: var(--bg-primary);
+ul.invisible_sm li:last-child a {
+    padding: 0.25rem;
+    color: grey;
+    border: 1px solid lightgray;
+    display: none;
 }
 
 
@@ -40,6 +59,11 @@ hr {
 .about {
     background-color: var(--bg-primary);
     margin: 2rem 0;
+}
+
+.form-floating>.form-control {
+    height: auto;
+    padding: 0;
 }
 
 
@@ -53,4 +77,13 @@ hr {
 .bottom_footer {
     height: 50px;
     background-color: var(--bg-secondary);
+}
+
+@media screen and (max-width:576px) {
+    .invisible_sm:not(li: last-child) {
+        display: none;
+    }
+    ul.invisible_sm li:last-child a {
+        display: block;
+    }
 }

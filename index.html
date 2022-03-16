@@ -31,15 +31,20 @@
                         <a class="nav-link text-white fw-bold" href="#">START BOOTSTRAP</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav">
+                <ul class="invisible_sm navbar-nav mc_fs_sm align-items-center">
                     <li>
-                        <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                        <a class="nav-link text-white fw-bold" href="#">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a class="nav-link text-white" href="#">ABOUT</a>
+                        <a class="nav-link text-white fw-bold" href="#">ABOUT</a>
                     </li>
                     <li>
-                        <a class="nav-link text-white" href="#">CONTACT</a>
+                        <a class="nav-link text-white fw-bold" href="#">CONTACT</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white fw-bold rounded" href="#">
+                            <i id="mc_visible" class="fas fa-bars "></i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -47,7 +52,7 @@
         </nav>
         <!-- /.mc_navbar -->
 
-        <div class="jumbotrone p-5">
+        <div class="jumbotrone bg_mc_primary p-5">
             <div class="container text-white text-center">
                 <div class="row">
                     <div class="col">
@@ -123,7 +128,7 @@
         <!-- /.portfolio -->
 
         <section class="about">
-            <div class="container text-white py-5">
+            <div class="container text-white py-5 px_6">
                 <h2 class="mb-2 fw-bold text-center">ABOUT</h2>
                 <div class="row justify-content-center align-items-center gx-1 gx-md-4 px-5 mb-1">
                     <div class="col-2 ps-0 ps-lg-2">
@@ -150,32 +155,50 @@
         </section>
         <!-- /.about -->
 
-        <section class="contact containter">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-12 text-center fs-1">
-                    <h2>CONTACT ME</h2>
+        <section class="contact">
+            <div class="container px_6 my-5">
+                <h2 class="mb-2 fw-bold text-center">CONTACT ME</h2>
+                <div class="row justify-content-center align-items-center gx-1 gx-md-4 px-5 mb-1">
+                    <div class="col-2 ps-0 ps-lg-2">
+                        <hr>
+                    </div>
+                    <div class="col-auto my-2">
+                        <i class="fa fa-star fs-5" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-2 pe-0 pe-lg-2">
+                        <hr>
+                    </div>
                 </div>
-                <div class="col-1">
-                    <hr>
+                <!-- /.row -->
+                <div class="row row-col-1 px-5">
+                    <div class="col">
+                        <form class="">
+                            <div class="form-floating ">
+                                <textarea class="form-control border-0 border-bottom border-2" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                <label class="p-0 mt-2" for="floatingTextarea">Name</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control border-0 border-bottom border-2" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                <label class="p-0 mt-2" for="floatingTextarea">Email Addres</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control border-0 border-bottom border-2 p-0" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                <label class="p-0 mt-2" for="floatingTextarea">Phone Number</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control border-0 border-bottom border-2 mc_h_130" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 130px"></textarea>
+                                <label class="p-0 mt-3" for="floatingTextarea2">Message</label>
+                            </div>
+                            <button type="submit" class="btn bg_mc_primary text-white mt-3">Send</button>
+                        </form>
+                        <!-- /.form -->
+                    </div>
                 </div>
-                <div class="col-auto text-center">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-                <div class="col-1">
-                    <hr>
-                </div>
+                <!-- /.row -->
             </div>
-            <!-- /.row -->
-            <div class="row justify-content-center align-items-center">
-                <div class="col-7">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eveniet quam asperiores debitis recusandae nemo vero provident perspiciatis eum perferendis tempora ipsum in voluptatibus, quisquam quis voluptatem. Nemo, eius nesciunt. Lorem ipsum dolor,
-                    sit amet consectetur adipisicing elit. Eius eveniet quam asperiores debitis recusandae nemo vero provident perspiciatis eum perferendis tempora ipsum in voluptatibus, quisquam quis voluptatem. Nemo, eius nesciunt.
-                </div>
-
-            </div>
-            <!-- /.row -->
+            <!-- /.container -->
         </section>
-        <!-- /.about -->
+        <!-- /.CONTACT -->
     </main>
     <!-- /.site_main -->
 
