@@ -1,16 +1,13 @@
 /* #region COMMON */
 
+* {
+    font-family: 'Gothic A1', sans-serif;
+}
+
 :root {
     --bg-primary: #1ABC9C;
     --bg-secondary: #2C3E50;
-    --bg-cabin: #BA4B63;
-    --bg-cake: #1EA4B6;
-    --bg-circus: #140F0F;
-    --bg-game: #1C83C1;
-    --bg-safe: #0E38B5;
-    --bg-submarine: #CCB2A3;
     --bg-footer: #3A546D;
-    --primary-text-color: white;
 }
 
 img {
@@ -31,20 +28,10 @@ hr {
 .mc_navbar {
     background-color: var(--bg-secondary);
     justify-content: space-around;
-    color: var(--primary-text-color);
 }
 
 .jumbotrone {
     background-color: var(--bg-primary);
-}
-
-.card {
-    background-color: transparent;
-    border: none;
-}
-
-.card img {
-    height: 150px;
 }
 
 
