@@ -31,7 +31,7 @@
                         <a class="nav-link text-white fw-bold" href="#">START BOOTSTRAP</a>
                     </li>
                 </ul>
-                <ul class="invisible_sm navbar-nav mc_fs_sm align-items-center">
+                <ul id="mc_nav_invisible" class="navbar-nav mc_fs_sm align-items-center">
                     <li>
                         <a class="nav-link text-white fw-bold" href="#">PORTFOLIO</a>
                     </li>
@@ -41,12 +41,12 @@
                     <li>
                         <a class="nav-link text-white fw-bold" href="#">CONTACT</a>
                     </li>
-                    <li>
-                        <a class="nav-link text-white fw-bold rounded" href="#">
-                            <i id="mc_visible" class="fas fa-bars "></i>
-                        </a>
-                    </li>
                 </ul>
+                <div class="mc_invisible">
+                    <a class="nav-link text-white fw-bold" href="#">
+                        <i id="mc_visible" class="fas fa-bars rounded"></i>
+                    </a>
+                </div>
             </div>
             <!-- /.container -->
         </nav>
@@ -202,10 +202,40 @@
     </main>
     <!-- /.site_main -->
 
-    <footer class="site_footer">
-        <div class="top_footer"></div>
+    <footer class="site_footer text-white text-center">
+        <div class="top_footer bg_mc_footer">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center gy-4 py-3">
+                    <div class="col">
+                        <h6>LOCATION</h6>
+                        <p>2215 John Daniel Drive Ciark, MO 54243</p>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <h6>AROUND THE WEB</h6>
+                        <i class="fab fa-facebook-f p-2 border border-white rounded-circle mx-1"></i>
+                        <i class="fab fa-google-plus-g p-2 border border-white rounded-circle mx-1"></i>
+                        <i class="fab fa-twitter p-2 border border-white rounded-circle mx-1"></i>
+                        <i class="fab fa-linkedin-in p-2 border border-white rounded-circle mx-1"></i>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col">
+                        <h6>ABOUT FREELANCER</h6>
+                        <p>Freelancer is a free to use, open source Bootstraptheme catedb <span class="color_primary">Start Bootstrap</span>.</p>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
         <!-- /.top_footer -->
-        <div class="bottom_footer"></div>
+        <div class="bottom_footer">
+            <div class="container">
+
+            </div>
+            <!-- /.container -->
+        </div>
         <!-- /.bottom_footer -->
     </footer>
     <!-- /.site_footer -->
