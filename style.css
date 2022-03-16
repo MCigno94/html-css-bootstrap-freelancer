@@ -51,6 +51,14 @@ hr {
     display: none;
 }
 
+.mc_btn_color {
+    color: lightgray;
+}
+
+.mc_filter_invert {
+    filter: invert(0.5);
+}
+
 
 /* Header */
 

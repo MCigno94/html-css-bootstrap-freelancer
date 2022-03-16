@@ -24,33 +24,33 @@
 
 <body>
     <header class="site_header">
-        <nav class="mc_navbar navbar navbar-expand bg_mc_secondary">
+        <nav class="navbar navbar-light navbar-expand-md bg_mc_secondary">
             <div class="container">
-                <ul class="navbar-nav">
-                    <li>
-                        <a class="nav-link text-white fw-bold" href="#">START BOOTSTRAP</a>
-                    </li>
-                </ul>
-                <ul id="mc_nav_invisible" class="navbar-nav mc_fs_sm align-items-center">
-                    <li>
-                        <a class="nav-link text-white fw-bold" href="#">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a class="nav-link text-white fw-bold" href="#">ABOUT</a>
-                    </li>
-                    <li>
-                        <a class="nav-link text-white fw-bold" href="#">CONTACT</a>
-                    </li>
-                </ul>
-                <div class="mc_invisible">
-                    <a class="nav-link text-white fw-bold" href="#">
-                        <i id="mc_visible" class="fas fa-bars rounded"></i>
-                    </a>
+                <a class="navbar-brand text-white fw-bold" href="#">START BOOSTRAP</a>
+                <button class="navbar-toggler mc_btn_color border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon mc_filter_invert"></span>
+              </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BOOSTRAP</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body mc_fs_sm">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fw-bold" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fw-bold" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fw-bold" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <!-- /.container -->
         </nav>
-        <!-- /.mc_navbar -->
 
         <div class="jumbotrone bg_mc_primary p-5">
             <div class="container text-white text-center">
