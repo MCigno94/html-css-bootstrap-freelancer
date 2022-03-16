@@ -17,6 +17,11 @@ img {
     max-width: 100%;
 }
 
+hr {
+    min-height: 2px;
+    opacity: 1;
+}
+
 
 /* #endregion COMMON */
 
@@ -29,13 +34,17 @@ img {
     color: var(--primary-text-color);
 }
 
-.debug [class^="col"]:not(.jumbotrone .col-12) {
-    /* background-color: aquamarine; */
+.jumbotrone {
+    background-color: var(--bg-primary);
 }
 
-.jumbotrone {
-    height: 500px;
-    background-color: var(--bg-primary);
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card img {
+    height: 150px;
 }
 
 
@@ -43,6 +52,7 @@ img {
 
 .about {
     background-color: var(--bg-primary);
+    margin: 2rem 0;
 }
 
 
