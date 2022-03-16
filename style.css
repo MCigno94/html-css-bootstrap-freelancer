@@ -1,4 +1,4 @@
-/* #region COMMON */
+/* Common */
 
 * {
     font-family: 'Gothic A1', sans-serif;
@@ -20,10 +20,7 @@ hr {
 }
 
 
-/* #endregion COMMON */
-
-
-/* UTILITY */
+/* Utility */
 
 .mc_fs_sm {
     font-size: 10px;
@@ -55,20 +52,7 @@ hr {
 }
 
 
-/* footer */
-
-.top_footer i {
-    width: 2rem;
-    height: 2rem;
-}
-
-
-/* #region HEADER */
-
-.mc_navbar {
-    background-color: var(--bg-secondary);
-    justify-content: space-around;
-}
+/* Header */
 
 #mc_visible {
     padding: 0.25rem 0.5rem;
@@ -77,17 +61,23 @@ hr {
 }
 
 
-/* #endregion HEADER */
-
-.about {
-    background-color: var(--bg-primary);
-    margin: 2rem 0;
-}
+/*Main */
 
 .form-floating>.form-control {
     height: auto;
     padding: 0;
 }
+
+
+/* Footer */
+
+.top_footer i {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/* Query */
 
 @media screen and (max-width:576px) {
     .mc_invisible {
