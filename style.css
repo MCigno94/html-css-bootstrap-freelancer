@@ -47,25 +47,12 @@ hr {
     background-color: var(--bg-footer);
 }
 
-.mc_invisible {
-    display: none;
-}
-
 .mc_btn_color {
     color: lightgray;
 }
 
 .mc_filter_invert {
     filter: invert(0.5);
-}
-
-
-/* Header */
-
-#mc_visible {
-    padding: 0.25rem 0.5rem;
-    color: grey;
-    border: 1px solid lightgray;
 }
 
 
@@ -88,12 +75,6 @@ hr {
 /* Query */
 
 @media screen and (max-width:576px) {
-    .mc_invisible {
-        display: block;
-    }
-    #mc_nav_invisible {
-        display: none;
-    }
     .px_6 {
         padding: 0;
     }
